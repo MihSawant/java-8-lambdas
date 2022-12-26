@@ -13,5 +13,15 @@ public class SimpleLambdas {
         // Consumer
         Consumer<Integer> printNumber = (n) -> System.out.println(n);
         printNumber.accept(50);
+
+        // Consumer - print table of n
+        Consumer<Integer> printTable = (number) ->{
+          for(int i = 1; i <= 10; i++){
+              int product = number * i;
+              System.out.printf("%d x %d = %d%n", i, number, product);
+          }
+        };
+        // print table of 5
+        printTable.accept(21);
     }
 }

@@ -50,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComparatorTest">
+  <component name="RunManager" selected="Application.EmployeeWorking">
     <configuration name="ChainingLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fifth.ChainingLambdas" />
       <module name="java-8-lambdas" />
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoreLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second.MoreLambdas" />
+    <configuration name="EmployeeWorking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifth.EmployeeWorking" />
       <module name="java-8-lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second.*" />
+          <option name="PATTERN" value="fifth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeWorking" />
         <item itemvalue="Application.ComparatorTest" />
         <item itemvalue="Application.ChainingLambdas" />
         <item itemvalue="Application.PrimitiveLambdas" />
         <item itemvalue="Application.PlaceOrders" />
-        <item itemvalue="Application.MoreLambdas" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672083981362</updated>
       <workItem from="1672083983828" duration="1738000" />
-      <workItem from="1672117075025" duration="9845000" />
+      <workItem from="1672117075025" duration="11937000" />
     </task>
     <servers />
   </component>

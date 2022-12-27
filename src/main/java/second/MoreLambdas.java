@@ -12,10 +12,8 @@ public class MoreLambdas {
                new ArrayList<>(Arrays.asList("mihir", "yash", "hari", "shayan", "azirel", "suresh", "aayan"));
 
         // list should have names which are starting with a:
-        Predicate<String> notStartWithA = string -> !string.startsWith("a");
-        nerdsList.removeIf(notStartWithA);
+        nerdsList.removeIf(string -> !string.startsWith("a"));
         // print the list using forEach
-        Consumer<String> stringConsumer = name -> System.out.println(name);
-        nerdsList.forEach(stringConsumer);
+        nerdsList.forEach(name -> System.out.println(name));
     }
 }

@@ -13,3 +13,7 @@ and filters value based on that.
 
 5. _Runnable:_ It is also a functional Interface as it has only one
 abstract method run(), so we can implement lambda for the same, and write it when needed.
+
+### Lambdas are not instances of Anonymous Classes
+    Lambda Expressions are complied using special bytecode instructions
+    called as invoke-dynamic which was introduced in java7.
